@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Meal Planner - Recipe Sharing Website</title>
+    <link rel="stylesheet" href="/css-files/style.css">
+    <link rel="stylesheet" href="css-files/ai-meal-planner.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>RecipeGenius</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="search_recipe.html">Recipes</a></li>
+                <li><a href="chat.html">ChatBot</a></li>
+                <li><a href="upload-recipe.html">Upload Recipe</a></li>
+                <li><a href="view-recipes.html">View Recipes</a></li>
+                <li><a href="ai-meal-planner.html">AI Meal Planner</a></li>
+                <li><a href="ingredient-substitutions.html">Ingredient Substitutions AI</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Account <i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="profile.html">Profile</a>
+                        <a href="login.html">Login</a>
+                        <a href="signup.html">Sign Up</a>
+                        <a href="#" id="logout-link">Logout</a>
+                    </div>
+                </li>
+                <!-- <li>
+                    <button id="theme-toggle">
+                      <i class="fas fa-moon"></i> Dark Mode
+                    </button>
+                  </li> -->
+            </ul>
+        </nav>
+    </header>
+   
+
+
+    <div class="meal-planner-container">
+        <h1 class="hhhhh-1">AI Meal Planner</h1>
+        <div class="preferences-form">
+            <h2>Tell us your preferences:</h2>
+            <label for="dietary-restrictions">Dietary Restrictions:</label>
+            <input type="text" id="dietary-restrictions" placeholder="e.g., Vegetarian, Gluten-Free" required>
+
+            <label for="allergies">Allergies:</label>
+            <input type="text" id="allergies" placeholder="e.g., Peanuts, Dairy" required>
+
+            <label for="cuisine-preferences">Cuisine Preferences:</label>
+            <input type="text" id="cuisine-preferences" placeholder="e.g., Italian, Indian, Mexican" required>
+
+            <label for="meal-duration">Number of Days:</label>
+            <input type="number" id="meal-duration" value="7" min="1" required>
+
+            <button id="generate-plan-btn">Generate Meal Plan</button>
+        </div>
+
+        <div id="meal-plan-output" class="meal-plan-output">
+        </div>
+
+        <div id="shopping-list-output" class="shopping-list-output">
+        </div>
+    </div>
+    <div id="meal-plan-result" style="margin-top: 20px;"></div>
+
+
+
+
+    <footer>
+        <div class="social">
+            <p>&copy; 2025 Recipe Sharing Website. All rights reserved.</p>
+        <p>Follow us on social media: 
+            <a href="#" >Facebook</a> | 
+            <a href="#" >Instagram</a> | 
+            <a href="#" >Twitter</a>
+        </p>
+        </div>
+    </footer>
+
+
+    <!-- Load theme script -->
+    <script type="module" src="/js-files/ai-meal-planner.js"></script>
+    <!-- <script type="module" src="/js-files/login.js"></script> -->
+    <!-- <script type="module" src="/js-files/signup.js"></script> -->
+    <!-- <script type="module" src="/js-files/recipe.js"></script> -->
+    <!-- <script type="module" src="/js-files/firebaseConfig.js"></script> -->
+    <!-- <script type="module" src="/js-files/firebase.js"></script> -->
+    <!-- <script type="module" src="/js-files/auth.js"></script> -->
+    <!-- <script src="/js-files/chatbot.js"></script> -->
+    <!-- <script src="/js-files/meal-generator.js"></script> -->
+    <!-- <script src="/js-files/meal-type.js"></script> -->
+<!-- <script src="/js-files/theme-changer.js"></script> -->
+    <script src="https://kit.fontawesome.com/0ac29e1ef6.js" crossorigin="anonymous"></script>
+    <script type="module" src="./js-files/nav.js"></script>
+
+</body>
+</html>

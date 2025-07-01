@@ -1,0 +1,58 @@
+/* Kitchen Timer Styles – matches site's main style.css */
+
+.timer-container {
+    background-color: var(--card-bg);
+    box-shadow: var(--card-shadow);
+    border-radius: 12px;
+    padding: 30px;
+    margin: 40px auto;
+    max-width: 500px;
+    text-align: center;
+    transition: background-color var(--transition-duration), color var(--transition-duration);
+    color: var(--text-color-primary);
+    border: 1px solid var(--border-color);
+  }
+  
+  .timer-container h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+  }
+  
+  .button-group {
+    margin: 20px 0;
+  }
+  
+  .btn {
+    padding: 10px 18px;
+    margin: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color var(--transition-duration), transform 0.2s ease;
+    color: white;
+  }
+  
+  /* Button Colors Matching Theme */
+  .blue   { background-color: var(--primary-color); }
+  .green  { background-color: var(--secondary-color); }
+  .yellow { background-color: #f1c40f; color: #222; }
+  .gray   { background-color: #7f8c8d; }
+  .purple { background-color: #9b59b6; }
+  .red    { background-color: #e74c3c; }
+  
+  .btn:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+  }
+  
+  /* Timer display */
+  .display {
+    font-size: 48px;
+    font-family: monospace;
+    margin: 25px 0;
+    color: var(--text-color-primary);
+  }
+  

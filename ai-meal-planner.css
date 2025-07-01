@@ -1,0 +1,434 @@
+/* Light Mode Button */
+.preferences-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--primary-color); /* Vibrant Indigo */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color var(--transition-duration) ease;
+}
+
+.preferences-form button:hover {
+    background-color: #5a52d4; /* Darker shade of Indigo */
+}
+
+/* Dark Mode Button */
+.dark-mode .preferences-form button {
+    background-color: var(--secondary-color); /* Teal Accent */
+    color: var(--text-color-primary); /* Light text on dark background */
+}
+
+.dark-mode .preferences-form button:hover {
+    background-color: #009688; /* Darker shade of Teal */
+}
+
+.meal-planner-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.hhhhh-1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.preferences-form h2 {
+    color: #555;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: left;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.preferences-form label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: bold;
+}
+
+.preferences-form input[type="text"],
+.preferences-form input[type="number"] {
+    width: calc(100% - 16px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.preferences-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.preferences-form button:hover {
+    background-color: #0056b3;
+}
+
+.meal-plan-output {
+    margin-top: 30px;
+    padding-top: 25px;
+    border-top: 2px solid #eee;
+}
+
+.meal-plan-output h2 {
+    color: #555;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: left;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.day-plan {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.day-plan h3 {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+.meal-item {
+    color: #555;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.meal-item strong {
+    font-weight: bold;
+    color: #333;
+    margin-right: 5px;
+}
+
+.shopping-list-output {
+    margin-top: 30px;
+    padding-top: 25px;
+    border-top: 2px solid #eee;
+}
+
+.shopping-list-output h2 {
+    color: #555;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: left;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.shopping-list-output ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.shopping-list-output li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 8px;
+    color: #555;
+    font-size: 16px;
+}
+
+.loading {
+    border: 6px solid #f3f3f3; /* Light grey */
+    border-top: 6px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 2s linear infinite;
+    margin: 20px auto;
+}
+
+.error {
+    color: #dc3545;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+/* Loading Spinner */
+.loading-spinner {
+    text-align: center;
+    padding: 2rem;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 1rem;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Meal Plan Grid */
+.meals-container {
+    margin-top: 1rem;
+}
+
+.meals-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 1rem 0;
+}
+
+.meal-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem;
+}
+
+.meal-header {
+    font-weight: bold;
+    color: #2c3e50;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Shopping List */
+.shopping-list {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+.shopping-list ul {
+    list-style: none;
+    padding: 0;
+    columns: 2;
+}
+
+.shopping-list li {
+    padding: 0.5rem 0;
+    break-inside: avoid;
+}
+
+/* Error Handling */
+.error-alert {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 1rem;
+    border-radius: 4px;
+    margin: 1rem 0;
+}
+
+.error-alert button {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #721c24;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* Loading Spinner */
+.loading-spinner {
+    text-align: center;
+    padding: 2rem;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 1rem;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Meal Plan Grid */
+.meals-container {
+    margin-top: 1rem;
+}
+
+.meals-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 1rem 0;
+}
+
+.meal-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem;
+}
+
+.meal-header {
+    font-weight: bold;
+    color: #2c3e50;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Shopping List */
+.shopping-list {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+.shopping-list ul {
+    list-style: none;
+    padding: 0;
+    columns: 2;
+}
+
+.shopping-list li {
+    padding: 0.5rem 0;
+    break-inside: avoid;
+}
+
+/* Error Handling */
+.error-alert {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 1rem;
+    border-radius: 4px;
+    margin: 1rem 0;
+}
+
+.error-alert button {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #721c24;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.print-actions {
+    margin: 20px 0;
+    text-align: center;
+}
+#print-full-plan-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#print-full-plan-btn:hover {
+    background-color: #45a049;
+}
+/* Maintains all your original classes while adding print/dark mode support */
+
+/* Your original .print-actions stays exactly the same */
+.print-actions {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Enhanced #print-full-plan-btn with theme variables */
+#print-full-plan-btn {
+    background-color: var(--primary-color); /* Uses your indigo */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color var(--transition-duration) ease;
+}
+
+#print-full-plan-btn:hover {
+    background-color: #5a52d4; /* Your original hover color */
+}
+
+.dark-mode #print-full-plan-btn {
+    background-color: var(--secondary-color); /* Your teal */
+    color: var(--text-color-primary);
+}
+
+.dark-mode #print-full-plan-btn:hover {
+    background-color: #009688; /* Your teal hover */
+}
+
+/* New additions that don't modify existing classes: */
+
+/* Print-specific styles (won't affect screen display) */
+@media print {
+    body {
+        background: white !important;
+        color: black !important;
+        margin: 0.5in;
+    }
+    
+    /* Targets only printed meal cards */
+    .meal-card {
+        page-break-inside: avoid;
+        border: 1px solid #ddd !important;
+        box-shadow: none !important;
+    }
+    
+    /* Improves shopping list print layout */
+    .shopping-list ul {
+        columns: 1 !important;
+    }
+    
+    /* Hides print buttons when printing */
+    .print-actions, #print-list-btn {
+        display: none !important;
+    }
+}
+
+/* Dark mode enhancements (only adds to .dark-mode) */
+.dark-mode .meal-card {
+    background-color: var(--card-bg);
+    border-color: var(--border-color);
+}
+
+.dark-mode .shopping-list {
+    background-color: var(--card-bg);
+}

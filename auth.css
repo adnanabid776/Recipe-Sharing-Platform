@@ -1,0 +1,84 @@
+/* Styles for authentication pages (login and signup) */
+.auth-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1; /* To take up the remaining height */
+    padding: 2em;
+}
+
+.auth-container {
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    padding: 2em;
+    box-shadow: var(--card-shadow);
+    width: 90%;
+    max-width: 400px;
+}
+
+.auth-container h2 {
+    color: var(--text-color-primary);
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.form-group {
+    margin-bottom: 1.5em;
+}
+
+.form-group label {
+    display: block;
+    color: var(--text-color-secondary);
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.form-group input[type="email"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 0.8em;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 1em;
+    color: var(--text-color-primary);
+    background-color: var(--bg-light);
+    box-sizing: border-box;
+}
+
+.auth-button {
+    width: 100%;
+    padding: 1em;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color var(--transition-duration) ease, transform 0.2s ease-in-out;
+}
+
+.auth-button:hover {
+    background-color: #5550bd;
+    transform: translateY(-2px);
+}
+
+.auth-link {
+    text-align: center;
+    margin-top: 1em;
+    color: var(--text-color-secondary);
+}
+
+.auth-link a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.auth-link a:hover {
+    text-decoration: underline;
+}
+
+.error-message {
+    color: var(--error-color);
+    margin-top: 1em;
+    text-align: center;
+}

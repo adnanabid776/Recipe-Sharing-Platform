@@ -1,0 +1,75 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chat with AI - Recipe Sharing Platform</title>
+        <link rel="stylesheet" href="/css-files/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>RecipeGenius</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="search_recipe.html">Recipes</a></li>
+                    <li><a href="chat.html">ChatBot</a></li>
+                    <li><a href="upload-recipe.html">Upload Recipe</a></li>
+                    <li><a href="view-recipes.html">View Recipes</a></li>
+                    <li><a href="ai-meal-planner.html">AI Meal Planner</a></li>
+                    <li><a href="ingredient-substitutions.html">Ingredient Substitutions AI</a></li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Account <i class="fas fa-caret-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="profile.html">Profile</a>
+                            <a href="login.html">Login</a>
+                            <a href="signup.html">Sign Up</a>
+                            <a href="#" id="logout-link">Logout</a>
+                        </div>
+                    </li>                    
+                    <!-- <li>
+                        <button id="theme-toggle">
+                        <i class="fas fa-moon"></i> Dark Mode
+                        </button>
+                    </li> -->
+                </ul>
+            </nav>
+        </header>
+
+        <div class="ai-search-container">
+            <div class="ai-search-box">
+            <h3>Ask for Recipes</h3>
+            <div class="ai-chat-container">
+                <div class="ai-messages" id="ai-messages"></div>
+                <div class="ai-input-area">
+                    <!-- <input type="file" id="image-upload" accept="image/*">
+                    <label for="image-upload" class="upload-image-btn">
+                    <i class="fas fa-image"></i> Upload Image
+                 </label> -->
+                  <input type="text" id="ai-query" placeholder="Ask for recipes...">
+                  <button id="ai-submit">Send</button>
+                </div>
+              </div>
+            </div>
+        </div>
+
+
+        <footer>
+            <div class="social">
+                <p>&copy; 2025 Recipe Sharing Website. All rights reserved.</p>
+            <p>Follow us on social media: 
+                <a href="#" >Facebook</a> | 
+                <a href="#" >Instagram</a> | 
+                <a href="#" >Twitter</a>
+            </p>
+            </div>
+        </footer>
+
+        <script src="/js-files/chat.js"></script>
+        <!-- <script src="/js-files/search-recipes.js"></script> -->
+        <!-- <script src="/js-files/theme-changer.js"></script> -->
+        <script src="https://kit.fontawesome.com/0ac29e1ef6.js" crossorigin="anonymous"></script>
+        <script type="module" src="./js-files/nav.js"></script>
+    </body>
+    </html>

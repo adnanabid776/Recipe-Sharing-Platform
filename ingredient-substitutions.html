@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingredient Substitutions AI</title>
+    <link rel="stylesheet" href="/css-files/style.css"> <!-- Updated to match project standard -->
+</head>
+<body>
+    <header>
+        <h1>RecipeGenius</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="search_recipe.html">Recipes</a></li>
+                <li><a href="chat.html">ChatBot</a></li>
+                <li><a href="upload-recipe.html">Upload Recipe</a></li>
+                <li><a href="view-recipes.html">View Recipes</a></li>
+                <li><a href="ai-meal-planner.html">AI Meal Planner</a></li>
+                <li><a href="ingredient-substitutions.html">Ingredient Substitutions AI</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Account <i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="profile.html">Profile</a>
+                        <a href="login.html">Login</a>
+                        <a href="signup.html">Sign Up</a>
+                        <a href="#" id="logout-link">Logout</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="ingredient-substitutions-container">
+        <h1>Ingredient Substitution AI</h1>
+        <div class="form-group">
+            <label for="ingredients">Enter Ingredients (one per line or comma-separated):</label>
+            <textarea id="ingredients" rows="10" placeholder="e.g., 1 cup all-purpose flour&#10;2 large eggs&#10;1/2 cup milk&#10;1 tsp baking powder"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="preference">Substitution Preference:</label>
+            <select id="preference">
+                <option value="general">General (Common Substitutes)</option>
+                <option value="vegan">Vegan</option>
+                <option value="gluten-free">Gluten-Free</option>
+                <option value="healthy">Healthier Alternatives</option>
+                <option value="allergy-friendly">Allergy-Friendly</option>
+            </select>
+        </div>
+        <button id="getSuggestionsBtn">Get Suggestions</button>
+        <h2>Substitution Results:</h2>
+        <div id="results">
+            <p>Your substitutions will appear here.</p>
+        </div>
+    </div>
+    <script src="js-files/ingredient-substitutions.js"></script>
+    <script src="https://kit.fontawesome.com/0ac29e1ef6.js" crossorigin="anonymous"></script>
+    <script type="module" src="./js-files/nav.js"></script>
+</body>
+</html> 

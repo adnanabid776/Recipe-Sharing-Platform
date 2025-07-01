@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - RecipeGenius</title>
+    <link rel="stylesheet" href="/css-files/style.css">
+    <link rel="stylesheet" href="/css-files/auth.css">
+    <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.17.1/firebase-auth-compat.js"></script>
+  <script src="./js-files/firebaseConfig.js" type="module"></script>
+</head>
+<body>
+    <header class="fixed-header">
+        <h1>RecipeGenius</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="search_recipe.html">Recipes</a></li>
+                <li><a href="chat.html">ChatBot</a></li>
+                <li><a href="upload-recipe.html">Upload Recipe</a></li>
+                <li><a href="view-recipes.html">View Recipes</a></li>
+                <li><a href="ai-meal-planner.html">AI Meal Planner</a></li>
+                <li><a href="ingredient-substitutions.html">Ingredient Substitutions AI</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Account <i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="profile.html">Profile</a>
+                        <a href="login.html">Login</a>
+                        <a href="signup.html">Sign Up</a>
+                        <a href="#" id="logout-link">Logout</a>
+                    </div>
+                </li>
+                <!-- <li>
+                    <button id="theme-toggle">
+                        <i class="fas fa-moon"></i> Dark Mode
+                    </button>
+                </li> -->
+            </ul>
+        </nav>
+    </header>
+
+    <main class="auth-page">
+        <div class="auth-container">
+            <h2>Login</h2>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="auth-button">Login</button>
+            </form>
+            <p class="auth-link">Don't have an account? <a href="signup.html">Sign Up</a></p>
+            <div id="login-error" class="error-message" style="display:none;"></div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="social">
+            <p>&copy; 2025 Recipe Sharing Website. All rights reserved.</p>
+            <p>Follow us on social media:
+                <a href="#" >Facebook</a> |
+                <a href="#" >Instagram</a> |
+                <a href="#" >Twitter</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="/js-files/auth.js" type="module"></script>
+    <script type="module" src="/js-files/nav.js"></script>
+    <!-- <script src="/js-files/theme-changer.js"></script> -->
+    <!-- <script src="/js-files/meal-type.js"></script> -->
+    <script src="https://kit.fontawesome.com/0ac29e1ef6.js" crossorigin="anonymous"></script>
+</body>
+</html>

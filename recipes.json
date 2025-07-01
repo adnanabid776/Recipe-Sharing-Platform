@@ -1,0 +1,388 @@
+[
+  {
+    "id": "3f0f98bfe5074e2aa96acae8beb63ead",
+    "title": "Classic Chocolate Chip Cookies",
+    "ingredients": [
+      "2 1/4 cups all-purpose flour",
+      "1 cup unsalted butter, softened",
+      "3/4 cup granulated sugar",
+      " 3/4 cup packed brown sugar",
+      "2 large eggs",
+      "1 teaspoon vanilla extract",
+      "1 teaspoon baking soda",
+      "1/2 teaspoon salt",
+      "2 cups semi-sweet chocolate chips"
+    ],
+    "steps": "1. Preheat oven to 375\u00c2\u00b0F (190\u00c2\u00b0C) and line baking sheets with parchment paper.\r\n2. In a bowl, cream together the softened butter, brown sugar, and granulated sugar until smooth.\r\n3. Beat in eggs one at a time, then stir in vanilla.\r\n4. In a separate bowl, whisk together flour, baking soda, and salt.\r\n5. Gradually blend the dry ingredients into the wet mixture.\r\n6. Stir in chocolate chips by hand.\r\n7. Drop rounded tablespoons of dough onto the prepared baking sheets.\r\n8. Bake for 10 to 12 minutes or until edges are lightly browned.\r\n9. Let stand on baking sheets for 2 minutes before moving to cooling racks.",
+    "prepTime": "15 minutes",
+    "cookTime": "12 minutes",
+    "category": "Desserts",
+    "image": ""
+  },
+  {
+    "id": "1a2b3c4d5e6f7g8h9i0j",
+    "title": "Spaghetti Carbonara",
+    "ingredients": [
+      "200g spaghetti",
+      "100g pancetta",
+      "2 large eggs",
+      "50g pecorino cheese",
+      "50g parmesan cheese",
+      "2 cloves garlic",
+      "Salt and pepper"
+    ],
+    "steps": "1. Cook spaghetti in salted boiling water.\r\n2. Fry pancetta with garlic.\r\n3. Beat eggs and mix with cheeses.\r\n4. Drain pasta and combine with pancetta.\r\n5. Remove from heat, add egg-cheese mixture, and stir.\r\n6. Season and serve immediately.",
+    "prepTime": "10 minutes",
+    "cookTime": "20 minutes",
+    "category": "Pasta",
+    "image": ""
+  },
+  {
+    "id": "2b3c4d5e6f7g8h9i0j1a",
+    "title": "Chicken Tikka Masala",
+    "ingredients": [
+      "500g chicken breast",
+      "1 cup yogurt",
+      "2 tbsp tikka masala paste",
+      "1 onion",
+      "2 tomatoes",
+      "1/2 cup cream",
+      "2 tbsp oil",
+      "Salt"
+    ],
+    "steps": "1. Marinate chicken in yogurt and tikka masala paste.\r\n2. Grill or pan-fry chicken.\r\n3. Saut\u00c3\u00a9 onion and tomatoes.\r\n4. Add cream and cooked chicken.\r\n5. Simmer and serve with rice.",
+    "prepTime": "20 minutes",
+    "cookTime": "30 minutes",
+    "category": "Indian",
+    "image": ""
+  },
+  {
+    "id": "3c4d5e6f7g8h9i0j1a2b",
+    "title": "Vegetable Stir Fry",
+    "ingredients": [
+      "1 broccoli head",
+      "1 red bell pepper",
+      "1 carrot",
+      "100g snow peas",
+      "2 tbsp soy sauce",
+      "1 tbsp sesame oil",
+      "2 cloves garlic"
+    ],
+    "steps": "1. Chop all vegetables.\r\n2. Heat oil in wok.\r\n3. Add garlic, then vegetables.\r\n4. Stir fry for 5-7 minutes.\r\n5. Add soy sauce and toss.\r\n6. Serve hot.",
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "category": "Vegetarian",
+    "image": ""
+  },
+  {
+    "id": "4d5e6f7g8h9i0j1a2b3c",
+    "title": "Beef Tacos",
+    "ingredients": [
+      "300g ground beef",
+      "8 taco shells",
+      "1 onion",
+      "1 tomato",
+      "Lettuce",
+      "Cheddar cheese",
+      "Taco seasoning"
+    ],
+    "steps": "1. Cook beef with taco seasoning.\r\n2. Chop onion, tomato, and lettuce.\r\n3. Fill taco shells with beef and toppings.\r\n4. Sprinkle cheese and serve.",
+    "prepTime": "15 minutes",
+    "cookTime": "15 minutes",
+    "category": "Mexican",
+    "image": ""
+  },
+  {
+    "id": "5e6f7g8h9i0j1a2b3c4d",
+    "title": "Greek Salad",
+    "ingredients": [
+      "2 tomatoes",
+      "1 cucumber",
+      "1/2 red onion",
+      "100g feta cheese",
+      "Olives",
+      "Olive oil",
+      "Oregano"
+    ],
+    "steps": "1. Chop vegetables.\r\n2. Mix in a bowl.\r\n3. Add feta and olives.\r\n4. Drizzle olive oil and sprinkle oregano.",
+    "prepTime": "10 minutes",
+    "cookTime": "0 minutes",
+    "category": "Salad",
+    "image": ""
+  },
+  {
+    "id": "6f7g8h9i0j1a2b3c4d5e",
+    "title": "French Onion Soup",
+    "ingredients": [
+      "4 onions",
+      "2 tbsp butter",
+      "1L beef stock",
+      "1 baguette",
+      "100g gruyere cheese",
+      "Salt and pepper"
+    ],
+    "steps": "1. Slice onions and cook in butter until caramelized.\r\n2. Add beef stock and simmer.\r\n3. Toast baguette slices.\r\n4. Serve soup with bread and cheese on top.",
+    "prepTime": "15 minutes",
+    "cookTime": "40 minutes",
+    "category": "Soup",
+    "image": ""
+  },
+  {
+    "id": "7g8h9i0j1a2b3c4d5e6f",
+    "title": "Pancakes",
+    "ingredients": [
+      "1 cup flour",
+      "2 tbsp sugar",
+      "1 cup milk",
+      "1 egg",
+      "2 tbsp butter",
+      "1 tsp baking powder",
+      "Pinch of salt"
+    ],
+    "steps": "1. Mix dry ingredients.\r\n2. Add milk, egg, and melted butter.\r\n3. Whisk until smooth.\r\n4. Cook on a hot griddle until golden.",
+    "prepTime": "5 minutes",
+    "cookTime": "10 minutes",
+    "category": "Breakfast",
+    "image": ""
+  },
+  {
+    "id": "8h9i0j1a2b3c4d5e6f7g",
+    "title": "Caesar Salad",
+    "ingredients": [
+      "1 romaine lettuce",
+      "50g parmesan cheese",
+      "Croutons",
+      "Caesar dressing",
+      "1 chicken breast (optional)"
+    ],
+    "steps": "1. Chop lettuce.\r\n2. Grill chicken if using.\r\n3. Toss lettuce with dressing, croutons, and cheese.\r\n4. Top with sliced chicken.",
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "category": "Salad",
+    "image": ""
+  },
+  {
+    "id": "9i0j1a2b3c4d5e6f7g8h",
+    "title": "Margherita Pizza",
+    "ingredients": [
+      "1 pizza dough",
+      "100g mozzarella",
+      "2 tomatoes",
+      "Fresh basil",
+      "Olive oil",
+      "Salt"
+    ],
+    "steps": "1. Roll out dough.\r\n2. Spread tomato slices and mozzarella.\r\n3. Bake at 220\u00c2\u00b0C for 12-15 minutes.\r\n4. Top with basil and drizzle olive oil.",
+    "prepTime": "15 minutes",
+    "cookTime": "15 minutes",
+    "category": "Pizza",
+    "image": ""
+  },
+  {
+    "id": "0j1a2b3c4d5e6f7g8h9i",
+    "title": "Lentil Soup",
+    "ingredients": [
+      "1 cup lentils",
+      "1 onion",
+      "2 carrots",
+      "2 celery stalks",
+      "1L vegetable stock",
+      "1 tsp cumin",
+      "Salt and pepper"
+    ],
+    "steps": "1. Saut\u00c3\u00a9 onion, carrots, and celery.\r\n2. Add lentils and stock.\r\n3. Simmer until lentils are soft.\r\n4. Season with cumin, salt, and pepper.",
+    "prepTime": "10 minutes",
+    "cookTime": "30 minutes",
+    "category": "Soup",
+    "image": ""
+  },
+  {
+    "id": "a1b2c3d4e5f6g7h8i9j0",
+    "title": "Fish Tacos",
+    "ingredients": [
+      "200g white fish",
+      "8 small tortillas",
+      "1/2 cabbage",
+      "1 lime",
+      "Sour cream",
+      "Cilantro",
+      "Taco seasoning"
+    ],
+    "steps": "1. Season and cook fish.\r\n2. Shred cabbage.\r\n3. Warm tortillas.\r\n4. Assemble tacos with fish, cabbage, sour cream, and cilantro.",
+    "prepTime": "15 minutes",
+    "cookTime": "10 minutes",
+    "category": "Seafood",
+    "image": ""
+  },
+  {
+    "id": "b2c3d4e5f6g7h8i9j0a1",
+    "title": "Egg Fried Rice",
+    "ingredients": [
+      "2 cups cooked rice",
+      "2 eggs",
+      "1/2 cup peas",
+      "2 carrots",
+      "2 tbsp soy sauce",
+      "1 tbsp oil",
+      "Green onions"
+    ],
+    "steps": "1. Scramble eggs and set aside.\r\n2. Saut\u00c3\u00a9 vegetables.\r\n3. Add rice and soy sauce.\r\n4. Stir in eggs and green onions.",
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "category": "Asian",
+    "image": ""
+  },
+  {
+    "id": "c3d4e5f6g7h8i9j0a1b2",
+    "title": "Falafel Wrap",
+    "ingredients": [
+      "6 falafel balls",
+      "2 pita breads",
+      "Lettuce",
+      "Tomato",
+      "Cucumber",
+      "Tahini sauce"
+    ],
+    "steps": "1. Warm pita breads.\r\n2. Fill with falafel, lettuce, tomato, and cucumber.\r\n3. Drizzle with tahini sauce and wrap.",
+    "prepTime": "10 minutes",
+    "cookTime": "5 minutes",
+    "category": "Middle Eastern",
+    "image": ""
+  },
+  {
+    "id": "d4e5f6g7h8i9j0a1b2c3",
+    "title": "Quiche Lorraine",
+    "ingredients": [
+      "1 pie crust",
+      "200g bacon",
+      "3 eggs",
+      "200ml cream",
+      "100g gruyere cheese",
+      "Salt and pepper"
+    ],
+    "steps": "1. Pre-bake pie crust.\r\n2. Cook bacon.\r\n3. Whisk eggs and cream.\r\n4. Add bacon and cheese.\r\n5. Pour into crust and bake at 180\u00c2\u00b0C for 30-35 minutes.",
+    "prepTime": "15 minutes",
+    "cookTime": "40 minutes",
+    "category": "French",
+    "image": ""
+  },
+  {
+    "id": "e5f6g7h8i9j0a1b2c3d4",
+    "title": "Tom Yum Soup",
+    "ingredients": [
+      "200g shrimp",
+      "2 cups chicken stock",
+      "1 lemongrass stalk",
+      "2 kaffir lime leaves",
+      "1 chili",
+      "Mushrooms",
+      "Fish sauce"
+    ],
+    "steps": "1. Boil stock with lemongrass and lime leaves.\r\n2. Add mushrooms and chili.\r\n3. Add shrimp and cook until pink.\r\n4. Season with fish sauce.",
+    "prepTime": "10 minutes",
+    "cookTime": "15 minutes",
+    "category": "Thai",
+    "image": ""
+  },
+  {
+    "id": "f6g7h8i9j0a1b2c3d4e5",
+    "title": "Avocado Toast",
+    "ingredients": [
+      "2 slices bread",
+      "1 avocado",
+      "Lemon juice",
+      "Salt and pepper",
+      "Chili flakes (optional)"
+    ],
+    "steps": "1. Toast bread.\r\n2. Mash avocado with lemon juice, salt, and pepper.\r\n3. Spread on toast and sprinkle chili flakes.",
+    "prepTime": "5 minutes",
+    "cookTime": "5 minutes",
+    "category": "Breakfast",
+    "image": ""
+  },
+  {
+    "id": "g7h8i9j0a1b2c3d4e5f6",
+    "title": "Stuffed Bell Peppers",
+    "ingredients": [
+      "4 bell peppers",
+      "1 cup cooked rice",
+      "200g ground beef",
+      "1 onion",
+      "1 can tomato sauce",
+      "Cheese"
+    ],
+    "steps": "1. Cut tops off peppers and remove seeds.\r\n2. Cook beef and onion.\r\n3. Mix with rice and tomato sauce.\r\n4. Stuff peppers and top with cheese.\r\n5. Bake at 180\u00c2\u00b0C for 25-30 minutes.",
+    "prepTime": "15 minutes",
+    "cookTime": "30 minutes",
+    "category": "Dinner",
+    "image": ""
+  },
+  {
+    "id": "h8i9j0a1b2c3d4e5f6g7",
+    "title": "Banana Bread",
+    "ingredients": [
+      "3 ripe bananas",
+      "2 cups flour",
+      "1/2 cup sugar",
+      "1/2 cup butter",
+      "2 eggs",
+      "1 tsp baking soda",
+      "Pinch of salt"
+    ],
+    "steps": "1. Mash bananas.\r\n2. Mix with sugar, butter, and eggs.\r\n3. Add flour, baking soda, and salt.\r\n4. Pour into loaf pan and bake at 175\u00c2\u00b0C for 50-60 minutes.",
+    "prepTime": "10 minutes",
+    "cookTime": "60 minutes",
+    "category": "Desserts",
+    "image": ""
+  },
+  {
+    "id": "i9j0a1b2c3d4e5f6g7h8",
+    "title": "Shakshuka",
+    "ingredients": [
+      "4 eggs",
+      "1 onion",
+      "1 bell pepper",
+      "2 tomatoes",
+      "1 tsp cumin",
+      "1 tsp paprika",
+      "Salt and pepper"
+    ],
+    "steps": "1. Saut\u00c3\u00a9 onion and pepper.\r\n2. Add tomatoes and spices.\r\n3. Simmer until thickened.\r\n4. Make wells and crack eggs in.\r\n5. Cover and cook until eggs are set.",
+    "prepTime": "10 minutes",
+    "cookTime": "20 minutes",
+    "category": "Middle Eastern",
+    "image": ""
+  },
+  {
+    "id": "j0a1b2c3d4e5f6g7h8i9",
+    "title": "Mushroom Risotto",
+    "ingredients": [
+      "1 cup arborio rice",
+      "200g mushrooms",
+      "1 onion",
+      "2 cups chicken stock",
+      "1/2 cup parmesan",
+      "2 tbsp butter"
+    ],
+    "steps": "1. Saut\u00c3\u00a9 onion and mushrooms.\r\n2. Add rice and cook for 1 min.\r\n3. Gradually add stock, stirring.\r\n4. Stir in parmesan and butter at the end.",
+    "prepTime": "10 minutes",
+    "cookTime": "30 minutes",
+    "category": "Italian",
+    "image": ""
+  },
+  {
+    "id": "17756b8e17a6473aa956f2c9137deb75",
+    "title": "Chicken Karahi",
+    "ingredients": [
+      "chicken",
+      "curd",
+      "onion",
+      "tomatoes"
+    ],
+    "steps": "wash the chicken,\r\ncook the vegetables,\r\n",
+    "prepTime": "20 min",
+    "cookTime": "30 min",
+    "category": "Pakistani",
+    "image": ""
+  }
+]

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Recipes - Recipe Sharing Platform</title>
+        <link rel="stylesheet" href="/css-files/style.css">
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script> -->
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> -->
+        
+</head>
+<body>
+    <header>
+        <h1>RecipeGenius</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="search_recipe.html">Recipes</a></li>
+                <li><a href="chat.html">ChatBot</a></li>
+                <li><a href="upload-recipe.html">Upload Recipe</a></li>
+                <li><a href="view-recipes.html">View Recipes</a></li>
+                <li><a href="ai-meal-planner.html">AI Meal Planner</a></li>
+                <li><a href="ingredient-substitutions.html">Ingredient Substitutions AI</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Account <i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="profile.html">Profile</a>
+                        <a href="login.html">Login</a>
+                        <a href="signup.html">Sign Up</a>
+                        <a href="#" id="logout-link">Logout</a>
+                    </div>
+                </li>            
+                    <!-- <li>
+                    <button id="theme-toggle">
+                      <i class="fas fa-moon"></i> Dark Mode
+                    </button>
+                  </li> -->
+            </ul>
+        </nav>
+    </header>
+    <div class="search-bar-recipes">
+        <form>
+            <h2 class="search-heading1" style="margin-bottom: 30px; font-size: 30px; text-align: center;">
+                Search for Recipes
+            </h2>
+            <textarea name="search-recipes" class="search-recipes" cols="50" rows="0" placeholder="Enter the ingredients"></textarea>
+            
+            <button type="submit" class="search-button-recipes">Search Here</button>
+        </form>
+       
+    </div>
+   
+    <div>
+        <main>
+            <section>
+                
+                <div class="recipe-container">
+                    <h3 style="
+                    text-align: center; ">Enter the ingredients for the recipes....</h3>
+                </div>
+                <div class="recipe-details">
+                    <div class="recipe-details-content">
+                        
+                            <i class="fa-solid fa-square-xmark" class="recipe-close-button"></i>
+                        
+                        <div class="recipe-popup-content">
+                            <!-- Content will be inserted here by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <div class="social">
+            <p>&copy; 2025 Recipe Sharing Website. All rights reserved.</p>
+        <p>Follow us on social media: 
+            <a href="#" >Facebook</a> | 
+            <a href="#" >Instagram</a> | 
+            <a href="#" >Twitter</a>
+        </p>
+        </div>
+    </footer>
+
+
+    <script src="/js-files/search-recipes.js"></script>
+    <!-- Load theme script -->
+    <!-- <script src="/js-files/theme-changer.js"></script> -->
+    <script src="https://kit.fontawesome.com/0ac29e1ef6.js" crossorigin="anonymous"></script>
+    <script type="module" src="./js-files/nav.js"></script>
+</body>
+</html>

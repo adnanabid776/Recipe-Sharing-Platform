@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Recipes - Recipe Sharing Website</title>
+    <link rel="stylesheet" href="/css-files/style.css">
+    <link rel="stylesheet" href="/css-files/view-recipes.css">
+</head>
+<body>
+    <header>
+        <h1>RecipeGenius</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="search_recipe.html">Recipes</a></li>
+                <li><a href="chat.html">ChatBot</a></li>
+                <li><a href="upload-recipe.html">Upload Recipe</a></li>
+                <li><a href="view-recipes.html">View Recipes</a></li>
+                <li><a href="ai-meal-planner.html">AI Meal Planner</a></li>
+                <li><a href="ingredient-substitutions.html">Ingredient Substitutions AI</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Account <i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="profile.html">Profile</a>
+                        <a href="login.html">Login</a>
+                        <a href="signup.html">Sign Up</a>
+                        <a href="#" id="logout-link">Logout</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Saved Recipes</h1>
+        <div class="filters">
+            <select id="category-filter">
+                <option value="">All Categories</option>
+            </select>
+            <input type="text" id="search-input" placeholder="Search recipes...">
+        </div>
+        
+        <div id="recipes-grid" class="recipes-grid">
+            <!-- Recipes will be loaded here dynamically -->
+            <div class="loading">Loading recipes...</div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="social">
+            <p>&copy; 2025 Recipe Sharing Website. All rights reserved.</p>
+            <p>Follow us on social media: 
+                <a href="#">Facebook</a> | 
+                <a href="#">Instagram</a> | 
+                <a href="#">Twitter</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/0ac29e1ef6.js" crossorigin="anonymous"></script>
+    <script src="/js-files/view-recipes.js"></script>
+    <script type="module" src="./js-files/nav.js"></script>
+</body>
+</html> 
